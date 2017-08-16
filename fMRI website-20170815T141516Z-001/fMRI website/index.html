@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="shortcut icon" href="TemplateData/favicon.ico">
+    <link rel="stylesheet" href="TemplateData/style.css">
+    <script src="TemplateData/UnityProgress.js"></script>  
+    <script src="Build/UnityLoader.js"></script>
+    <script>
+      var gameInstance = UnityLoader.instantiate("gameContainer", "Build/brain.json", {onProgress: UnityProgress});
+    </script>
+   
+    <title>fMRI Data Portal | Home</title>
+
+    <!-- Bootstrap -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+      <link href="css/font-awesome.css" rel="stylesheet">
+      <link href="css/style.css" rel="stylesheet">
+      
+    </head>
+    
+    <body>
+        <!--HEADER-->
+        <header id="main-header">
+            <div class="container">
+                <div class="row">
+                    <div class="col-xs-12 col-sm-2 col-md-2 col-lg-4">
+                        <h1><span class="primary-text">fMRI</span> Data Portal</h1>
+                    </div>
+                    <div class="col-xs-12 col-sm-10 col-md-10 col-lg-8">
+                        <div class="pull-right">
+                             <nav id="navbar">
+                                <ul>
+                                    <li class="current"><a href="index.html">Home</a></li>
+                                    <li><a href="about.html">About</a></li>
+                                    <li><a href="contact.html">Contact</a></li>
+                                     <li><a href="">Blog</a></li>
+                                    <li><a href="login.html">Login</a></li>
+
+                                </ul>
+                            </nav>
+                        </div>
+                       
+                    </div>
+                </div>
+            </div>
+        </header>
+        
+      
+        <!--SHOWCASE-->
+        <section id="showcase">
+            <div class="container">
+                <div class="row text-center">
+                    <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 showcase-content">
+                        <h2>Welcome to <span class="primary-text">fMRI Data Portal</span></h2>
+                        <p>this website is about visualizing fMRI studies</p>
+                    </div>
+                    
+                </div>
+            </div>
+        </section>
+        
+        <!--FEATURES-->
+        <section id="functions">
+            <div class="container">
+                <div class="row text-center">
+                    <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 ">
+                        <h2><strong>Core Functions</strong></h2>
+                        <p style="font-size:20px">what's included</p>
+                         <!--ICON ROW 1-->
+                        <div class="row text-center page">
+                            <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6 ">
+                                <div class="pull-left">
+                                    <h4><a href="motorcontrol.html"> Motor control</a></h4> 
+                                <p>Cognitive function of the brain</p> 
+                                </div>
+                              
+								
+                            </div>
+                            <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6">
+                                <div class="pull-right">
+                                    <h4><a href="sensory.html"> Sensory</a></h4> 
+                                <p>Cognitive function of the brain</p>
+                                </div>
+                                
+                            </div>
+                            
+                        </div>
+                        <div class="webgl-content">
+                            <div id="gameContainer" style="width: 600px; height: 400px"></div>
+                            <div class="fullscreen" onclick="gameInstance.SetFullscreen(1)"></div>
+                        </div>
+						
+                        
+                       
+                        
+                        <!--ICON ROW 2-->
+                        <div class="row text-center page">
+                            <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6">
+                                <div class="pull-left">
+                                    <h4><a href="regulation.html"> Regulation</a></h4> 
+                                <p>Cognitive function of the brain</p>
+                                </div>
+                                
+                            </div>
+                            <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6 ">
+                                <div class="pull-right">
+                                     <h4> <a href="language.html">Language</a></h4> 
+                                    <p>Cognitive function of the brain</p>
+                                </div>
+                               
+                            </div>
+                            
+                        </div> 
+                            <!--ICON ROW 3-->
+                         <div class="row centeer page"> 
+                             <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4">
+                                <h4><a href="laterlization.html"> Laterlization</a></h4> 
+                                <p>Cognitive function of the brain</p>
+                            </div>
+                            <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4">
+                                <h4><a href="emotion.html"> Emotion</a></h4> 
+                                <p>Cognitive function of the brain</p>
+                            </div>
+                            <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4">
+                                <h4><a href="executive.html">Executive function</a></h4> 
+                                <p>Cognitive function of the brain</p>
+                            </div>
+                        </div>
+                        
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+         <!--INFO Section-->
+        <section id="info">
+            <div class="container">
+                <div class="row text-center">
+                    <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6">
+                        <img class="img-rounded"src="images/human.jpg" alt=""/>
+                    </div>
+                    <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6">
+                        <h2><strong>Core Functions</strong></h2>
+                        <ul>
+                            <li><span class="glyphicon glyphicon-ok"></span>Motor Control</li>
+                            <li><span class="glyphicon glyphicon-ok"></span>Sensory</li>
+                            <li><span class="glyphicon glyphicon-ok"></span>Regulation</li>
+                            <li><span class="glyphicon glyphicon-ok"></span>Language</li>
+                            <li><span class="glyphicon glyphicon-ok"></span>Laterlization</li>
+                            <li><span class="glyphicon glyphicon-ok"></span>Emotion</li>
+                            <li><span class="glyphicon glyphicon-ok"></span>Executive function</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+         <!--COMPANY-->
+        <section id="company">
+            <div class="container">
+                <div class="row text-center">
+                    <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4">
+                        <h2>Contact Us</h2>
+                        <ul>
+                            <li><span class="glyphicon glyphicon-phone-alt"></span> (+94)767712152</li>
+                            <li><span class="glyphicon glyphicon-envelope"></span> maneesharajaratne@gmail.com</li>
+                        </ul>
+                    </div>               
+                    <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4">
+                        <h2>About Us</h2>
+                        <p>Functional Neuroimaging Data Portal for 3D visualization.</p>
+                    </div>
+                    <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4">
+                        <h2>Search</h2>
+                        <form>
+                            
+                            <div class="form-inline">
+                                <input type="text" class="form-control" placeholder="search here">
+                                <input type="submit" class="btn btn-info" value="Submit">
+                            </div>
+                            
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+         <!--FOOTER-->
+        <footer id="main-footer">
+            <div class="container">
+                <div class="row text-center">
+                    <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+                        <p>Copyright &copy; 2017 | BrainStorm</p>                         
+
+                    </div>
+                </div>
+            </div>
+        </footer>
+    </body>
+</html>
