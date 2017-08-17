@@ -6,9 +6,9 @@ body{
     padding:0;
 }
 
-img{
+/*img{
     width:100%;
-}
+}*/
 .container{
     margin: auto;
 }
@@ -157,9 +157,7 @@ img{
     font-size: 20px;
 }
 
-#info img{
-    padding-top: 20px;
-}
+
 
 /* COMPANY */
 
